@@ -1,0 +1,36 @@
+.icon-sprite, .icon-bike, .icon-pencil, .icon-plane, .icon-tini {
+  background-image: url('../img/icon-sd333af5a2e.png');
+  background-repeat: no-repeat;
+}
+
+.icon-bike {
+  background-position: 0 0;
+}
+
+.icon-pencil {
+  background-position: 0 -150px;
+}
+
+.icon-plane {
+  background-position: 0 -300px;
+}
+
+.icon-tini {
+  background-position: 0 -450px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
